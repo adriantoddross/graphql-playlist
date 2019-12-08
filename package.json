@@ -1,0 +1,27 @@
+{
+  "name": "graphql-playlist",
+  "version": "1.0.0",
+  "description": "net ninja graphql server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriantoddross/graphql-playlist.git"
+  },
+  "author": "adrian ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriantoddross/graphql-playlist/issues"
+  },
+  "homepage": "https://github.com/adriantoddross/graphql-playlist#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.13"
+  }
+}
