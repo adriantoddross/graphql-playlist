@@ -119,7 +119,7 @@ mutation {
 
 This will create a new author with a name and age (and a unique ID) and then return the name and age of the author you just created. An ID will be created and assigned to the document as well. **Don't forget: in GraphiQL, you must use double quotes for strings.**
 
-Before creating a book, you must grab the authorID from your database. 
+Before creating a book, you must grab the authorID from that document in your database. 
 
 ### Adding a book
 Adding a new document for a book requires a name (string), genre (string), and the appropriate authorID (string). All fields are non-null
